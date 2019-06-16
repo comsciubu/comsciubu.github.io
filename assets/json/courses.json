@@ -1,0 +1,116 @@
+[
+  {
+    "id": "1144131",
+    "credit": "3(3-0-6)",
+    "title": {
+      "th": "พื้นฐานการเขียนโปรแกรม",
+      "en": "Programming Fundamental"
+    }, 
+    "manager": "wichit.s",
+    "lecturers": [ "wichit.s", "warawoot.p", "kriengsak.t", "phaichayon.k" ],
+    "prerequisite": [ ],
+    "corequisite": [ ],
+    "description": {
+      "th": "แนวคิดและหลักการแก้ปัญหาด้วยภาษาโปรแกรมคอมพิวเตอร์  รูปแบบภาษาโปรแกรม  ตัวแปรและ ชนิดข้อมูล  คำสั่งเพื่อกำหนดลำดับการทำงาน  อาร์เรย์  การจัดการไฟล์  การเขียนเมธอด",
+      "en": "Concept and principle of problem-solving with programming language;  programming language syntax;  variables and data types;  control structures; array; file I/O streaming; method"
+    },
+    "icon": "",
+    "banner": "",
+    "link": "https://wichit2s.gitlab.io/python"
+  },
+  {
+    "id": "1144233",
+    "credit": "3(3-0-6)",
+    "title": {
+      "th": "ระบบฐานข้อมูล",
+      "en": "Database System"
+    }, 
+    "manager": "chayaporn.k",
+    "lecturers": [ "chayaporn.k" ],
+    "prerequisite": [ ],
+    "corequisite": [ ],
+    "description": {
+      "th": "แนวคิดของการจัดการข้อมูล  แฟ้มข้อมูล  การจัดการฐานข้อมูล  สถาปัตยกรรมฐานข้อมูล โมเดลข้อมูลแบบต่าง ๆ  ภาษาสืบค้นข้อมูล  โมเดลเชิงสัมพันธ์  การวิเคราะห์และออกแบบฐานข้อมูล  การประมวล  ผลรายการ  การควบคุมภาวะการเข้าใช้งานข้อมูลพร้อมกัน  การกู้คืนและสำรองข้อมูล",
+      "en": "Concept of data management;  file management;  database management;  database model architecture;  data models;  relational data model;  database analysis and design; transaction processing;  concurrency control and data recovery;  backup"
+    },
+    "icon": "",
+    "banner": "",
+    "link": "https://comsciubu.github.io/database"
+  },
+  {
+    "id": "1144237",
+    "credit": "3(2-3-4)",
+    "title": {
+      "th": "การพัฒนาโปรแกรมบนเว็บ",
+      "en": "Web Development"
+    }, 
+    "manager": "warawoot.p",
+    "lecturers": [ "warawoot.p" ],
+    "prerequisite": [ "1144233" ],
+    "corequisite": [ "1144235" ],
+    "description": {
+      "th": "พื้นฐานเทคโนโลยีบนเว็บ  หลักการรับ-ส่งข้อมูลบนเว็บ  การออกแบบและพัฒนาโปรแกรมประยุกต์บนเทคโนโลยีเว็บ",
+      "en": "Fundamental of web technology;  concept of data communication over web; web application design and implementation"
+    },
+    "icon": "",
+    "banner": "",
+    "link": ""
+  },
+  {
+    "id": "1144238",
+    "credit": "3(2-3-4)",
+    "title": {
+      "th": "วิทยาการข้อมูล",
+      "en": "Data Science"
+    }, 
+    "manager": "wichit.s",
+    "lecturers": [ "wichit.s", "supawadee.h" ],
+    "prerequisite": [ "1144131" ],
+    "corequisite": [],
+    "description": {
+      "th": "ความรู้เบื้องต้นเกี่ยวกับวิทยาการข้อมูล  กระบวนการของวิทยาการข้อมูล  การนำเสนอข้อมูลทางสถิติด้วยกราฟ  การกลั่นกรองข้อมูล  ภาพรวมของการจำลองรูปแบบทางสถิติ  การสุ่มตัวอย่างและความเบี่ยงเบน  การถดถอย   มิติของข้อมูล  การแบ่งหมวดหมู่  หลักการของมาร์คอฟ  การเรียนรู้ของเครื่องเบื้องต้น  โครงงานและหลักการนำเสนอ",
+      "en": "Introduction to data science;  data science process;  statistical graphs;  data wrangling;  overview of statistical models;  sampling and bias;  regression;  dimensionality;  classification and clustering;   Markov Chain Monte Carlo method;  practical machine learning; presentation and data science project"
+    },
+    "icon": "",
+    "banner": "",
+    "link": "https://wichit2s.gitlab.io/datascience"
+  },
+  {
+    "id": "1144311",
+    "credit": "3(3-0-6)",
+    "title": {
+      "th": "คณิตศาสตร์เชิงการคำนวณ",
+      "en": "Computational Mathematics"
+    }, 
+    "manager": "wichit.s",
+    "lecturers": [ "wichit.s", "wayo.p" ],
+    "prerequisite": [],
+    "corequisite": [],
+    "description": {
+      "th": "ระบบสมการเชิงเส้นและผลเฉลยเชิงตัวเลข  เมทริกซ์  ดีเทอร์มิแนนต์  ผลเฉลยเชิงตัวเลขของสมการหนึ่งตัวแปร การแปลงเชิงเส้น  การประมาณค่าในช่วงและนอกช่วง  การหาอนุพันธ์และปริพันธ์เชิงตัวเลข ค่าลักษณะเฉพาะและเวกเตอร์ลักษณะเฉพาะ",
+      "en": "Systems of linear equations and numerical solutions;  matrices;  determinants; numerical solutions of equations in one variable;  linear transformations;  interpolation and extrapolation;  numerical differentiation and integration;  eigenvalues and eigenvectors"
+    },
+    "icon": "",
+    "banner": "",
+    "link": "https://wichit2s.gitlab.io/numer"
+  },
+  {
+    "id": "1144331",
+    "credit": "3(3-0-6)",
+    "title": {
+      "th": "วิศวกรรมซอฟต์แวร์",
+      "en": "Software Engineering"
+    }, 
+    "manager": "wasana.n",
+    "lecturers": [ "wasana.n", "supawadee.h" ],
+    "prerequisite": [ "1144235" ],
+    "corequisite": [],
+    "description": {
+      "th": "ความรู้เบื้องต้นเกี่ยวกับวิศวกรรมซอฟต์แวร์  วงจรการพัฒนาซอฟต์แวร์  โมเดลกระบวนการซอฟต์แวร์  วิศวกรรมความต้องการ  การวิเคราะห์และออกแบบซอฟต์แวร์  การสร้างซอฟต์แวร์  การทดสอบซอฟต์แวร์  การบริหารโครงการ  การบำรุงรักษาซอฟต์แวร์",
+      "en": "Introduction to software engineering;  software development life cycle;  software process modeling;  requirement engineering;  software analysis and design;  software development;  software testing;  project management;  software maintenance"
+    },
+    "icon": "",
+    "banner": "",
+    "link": ""
+  }
+]
